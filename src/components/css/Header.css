@@ -1,0 +1,46 @@
+.banner{
+    
+    background-image: url(../../images/header.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 77px;
+    
+}
+.banner_title{
+    text-transform: uppercase;
+    text-align: center;
+}
+.banner_title_p1{
+   font-size: 31px;
+   color: var(--text-color-white);
+   font-family: 'Bebas Neue',cursive;
+}
+
+.banner_title_p2{
+    font-size: 52px;
+    font-family: 'Bebas Neue',cursive;
+    color: var(--menu_hover_color);
+}
+.banner_subtitle{
+    text-align: center;
+    color: var(--text-color-white);
+    font-family: 'Source sans Pro',sans-serif;
+    font-size: 23px;
+}
+
+@media screen and (max-width: 767px) {
+    .banner_title_p1{
+        font-size: 20px;
+    }
+    .banner_title_p2{
+        font-size: 30px;
+    }
+    .banner_subtitle{
+        font-size: 16px;
+    }
+}

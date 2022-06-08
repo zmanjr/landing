@@ -24,7 +24,7 @@ function Nav() {
     }
     const menu_icon = showLinks ? <HiOutlineX className='nav_btn' onClick={handleShowLinks}/> : <HiMenu  className='nav_btn' onClick={handleShowLinks}/>;
   return (
-    <div>
+    
         <nav className={`nav ${showLinks? 'show_nav' : null}`}>
             <div className='nav_logo'>
                <img src={logo} alt="logo" />
@@ -48,7 +48,7 @@ function Nav() {
             </div>
             {menu_icon}
         </nav>
-    </div>
+    
   )
 }
 

@@ -2,7 +2,8 @@
   --primary_color: #FCD0AD;
   --secondary_color: #B5D2FE;
   --menu_hover_color: #FF4545;
-  --text-color: #0E0E0E;
+  --text-color-black: #0E0E0E;
+  --text-color-white: #FDFDFD;
 }
 body {
   margin: 0;

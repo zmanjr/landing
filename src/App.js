@@ -1,51 +1,13 @@
 import './App.css';
+import Header from './components/Header';
 import Nav from './components/Nav';
 
 function App() {
   return (
-    <div>
+    <>
       <Nav />
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-      <p><a href="#" className="nav_item_link">Contact</a></p>
-    </div>
+      <Header />
+    </>
   );
 }
 

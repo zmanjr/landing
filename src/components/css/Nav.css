@@ -16,6 +16,7 @@
     display: flex;
     justify-content: space-evenly;
     
+    
 }
 .nav_item_link{
     text-decoration: none;
@@ -52,7 +53,7 @@
         padding-top: 70px;
     }
     .show_nav .nav_items{
-        width: 100vw;
+        width: 110vw;
         visibility: visible;
         right: 0;
         
