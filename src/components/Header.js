@@ -3,6 +3,7 @@ import './css/Header.css'
 
 function Header() {
   return (
+    
     <header className='banner'>
       <div className='banner_title'>
          <p className='banner_title_p1'>L’agence de marketing évènementiel<br /> au service de votre marque dans</p>
@@ -12,6 +13,7 @@ function Header() {
           <p className='banner_subtitle_p1'>Une Capsul + des innovations hi-tech<br />le cocktail parfait pour (re)faire parler de vous !</p>
       </div>
     </header>
+    
   )
 }
 

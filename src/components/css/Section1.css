@@ -1,0 +1,80 @@
+.section1{
+    margin-top: 140px;
+}
+.vr_section_gradient{
+    
+        height: 140px;
+        width: 200px;
+        position: absolute;
+        right: 0;
+        margin-top: -140px;
+        background-image: url(../../images/gradient.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+    
+
+}
+.vr_section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.vr_section_text{
+   width: 63%;
+}
+
+.vr_section_text_titles_title{
+    font-family: 'Bebas Neue',cursive;
+    font-size: 34px;
+}
+.vr_section_text_titles_title_pink{
+    color: var(--primary_color);
+}
+.vr_section_text_titles_subtitle{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 20px;
+}
+.vr_section_text_content{
+    font-family: 'Source sans Pro',sans-serif;
+    font-size: 18px;
+    color: var(--text-color-black);
+}
+.vr_section_text_titles{
+    margin-bottom: 50px;
+}
+.vr_section_img{
+    z-index: 0;
+}
+.vr_separator{
+    max-width: 100%;
+}
+@media screen and (max-width: 991px) {
+    .vr_section{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .vr_section_text{
+        width: 95%;
+        margin-top: 60px;
+    }
+    .vr_section_img{
+        max-width: 100%;
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width: 771px) {
+    .vr_section_text_titles_title{
+        font-size: 54px;
+    }
+    .vr_section_text_titles_subtitle{
+        font-size: 18px;
+    }
+    .vr_section_text_content{
+        font-size: 16px;
+    }
+}

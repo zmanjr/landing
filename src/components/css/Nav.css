@@ -8,7 +8,7 @@
     width: 100%;
     align-items: center;
     height: 77px;
-    
+    z-index: 1;
     
 }
 
@@ -38,8 +38,10 @@
 }
 
 @media screen  and (max-width: 991px){
+    .nav{
+        z-index: 1;
+    }
     .nav_items{
-        
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-end;
@@ -53,7 +55,7 @@
         padding-top: 70px;
     }
     .show_nav .nav_items{
-        width: 110vw;
+        width: 120vw;
         visibility: visible;
         right: 0;
         
