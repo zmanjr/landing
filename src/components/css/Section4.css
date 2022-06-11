@@ -1,0 +1,38 @@
+.noss_section_text , .noss_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.noss_section_text_title{
+    font-family: 'Bebas Neue' ,sans-serif;
+    font-size: 44px;
+    text-transform: uppercase;
+    width: 73%;
+}
+.noss_section_text_subtitle{
+    font-family: 'Source sans Pro' , sans-serif;
+    font-size: 18px;
+    width: 73%;
+}
+
+.noss_section_boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 75%;
+    text-align: center;
+}
+.noss_section_box{
+    width: 25%;
+}
+.noss_section_box_title{
+    color: #FCD0AD;
+    font-size: 40px;
+    font-family: 'Bebas Neue' , sans-serif;
+}
+
+.noss_section_box_content{
+    font-family: 'Source sans Pro' ,sans-serif;
+    font-size: 16px;
+}
