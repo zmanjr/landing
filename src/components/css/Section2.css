@@ -1,0 +1,120 @@
+.napp_section{
+    margin-top: 94px;
+    
+}
+.napp_section_titles_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 140px;
+}
+.napp_section_titles{
+    width: 50%;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+.napp_section_titles_title{
+    font-family: 'Bebas Neue',cursive;
+    font-size: 44px;
+    
+}
+.napp_section_titles_title_subtitle{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+}
+.napp_section_text{
+    width: 70%;
+    text-align: center;
+    font-family: 'Source Sans Pro',sans-serif;
+    font-size: 18px;
+}
+
+.napp_section_gradient{
+    height: 200px;
+    width: 200px;
+    margin-top: -200px;
+    position: relative;
+    top: 200px;
+    background-image: url(../../images/gradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    overflow: hidden;
+   
+}
+.napp_section_boxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 120px;
+}
+.napp_section_box{
+    background: #FDFDFD;
+    box-shadow: 0px 0px 13px rgba(0, 0, 0, 0.16);
+    border-radius: 26px;
+    width: 25%;
+    text-align: center;
+    padding: 0 25px 25px 25px;
+    
+}
+
+.napp_section_box_number{
+    font-family: 'Bebas Neue';
+    font-size: 174px;
+    line-height: 50.3%;
+    text-transform: uppercase;
+    color:#FCD0AD;
+    margin-top: -10%;
+}
+
+.napp_section_box_text{
+    margin-top: -120px;
+    font-family: 'Source sans Pro', sans-serif;
+    font-size: 18px;
+}
+.napp_section_separator{
+    max-width: 100%;
+}
+
+
+@media screen and (max-width : 771px)  {
+    
+    .napp_section_boxes{
+        margin-bottom: -10px;
+    }
+    .napp_section_titles{
+        width: 70%;
+    }
+    .napp_section_titles_title{
+        font-size: 20px;
+    }
+    .napp_section_titles_title_subtitle{
+        font-size: 12px;
+    }
+    .napp_section_text{
+        font-size: 16px;
+        width: 95%;
+        text-align: start;
+    }
+    .napp_section_gradient{
+    display: none;
+    } 
+    
+    .napp_section_boxes{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .napp_section_box{
+        width: 80%;
+        margin-bottom: 124px;
+        padding: 0 -25px -0 -25px;
+    }
+    .napp_section_box_text{
+        font-size: 16px;
+    }
+    
+}

@@ -1,5 +1,6 @@
 .section1{
     margin-top: 140px;
+    
 }
 .vr_section_gradient{
     
@@ -22,7 +23,7 @@
 
 
 .vr_section_text{
-   width: 63%;
+   width: 70%;
 }
 
 .vr_section_text_titles_title{
@@ -40,6 +41,7 @@
     font-family: 'Source sans Pro',sans-serif;
     font-size: 18px;
     color: var(--text-color-black);
+    
 }
 .vr_section_text_titles{
     margin-bottom: 50px;
@@ -50,7 +52,7 @@
 .vr_separator{
     max-width: 100%;
 }
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 771px) {
     .vr_section{
         flex-direction: column-reverse;
         justify-content: center;
