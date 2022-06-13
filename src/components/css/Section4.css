@@ -1,38 +1,106 @@
-.noss_section_text , .noss_section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.a5{
+    margin-top: 114px;
 }
-.noss_section_text_title{
+.a5_divs{
+    
+    display: flex;
+    justify-content: space-evenly;
+    width: 98%;
+    margin-top: -40px;
+    
+}
+.a5_title{
     font-family: 'Bebas Neue' ,sans-serif;
     font-size: 44px;
     text-transform: uppercase;
-    width: 73%;
+    margin: 0 13% 50px 13%;
 }
-.noss_section_text_subtitle{
+.a5_description{
     font-family: 'Source sans Pro' , sans-serif;
     font-size: 18px;
-    width: 73%;
+    margin: 0 11% 110px 13%;
 }
 
-.noss_section_boxes{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 75%;
+.fr ,.fg{
+    width: 80px;
+    height: 71px;
+}
+
+.a5_div{
     text-align: center;
+    width: 19%;
+    
 }
-.noss_section_box{
-    width: 25%;
-}
-.noss_section_box_title{
+.a5_div_title{
     color: #FCD0AD;
     font-size: 40px;
     font-family: 'Bebas Neue' , sans-serif;
+    margin-bottom: -15px;
+
 }
 
-.noss_section_box_content{
+.a5_div_content{
     font-family: 'Source sans Pro' ,sans-serif;
     font-size: 16px;
+}
+
+.a5_ft{
+    margin-top: 20px;
+    font-size: 13px;
+    font-family: 'Source sans Pro' , sans-serif;
+    padding-left: 7%;
+
+}
+.noss_img{
+    max-width: 100%;
+}
+
+
+@media  screen and (max-width: 991px) {
+    .a5_divs{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .a5_title{
+        font-size: 22px;
+    }
+    .a5_description{
+        font-size: 16px;
+    }
+    .a5_div{
+        width: 78%;
+    }
+    .a5_div_title{
+        font-size: 27px;
+    }
+    .a5_div_content{
+        font-size: 16px;
+    }
+    .fr{
+        align-self: flex-start;
+        margin-left: 7%;
+        margin-bottom: -12%;
+        width: 61px;
+        height: 54px;
+    }
+    .fg{
+        align-self: flex-end;
+        margin-top: -160px;
+        margin-right: 7%;
+        width: 61px;
+        height: 54px;
+        
+        
+    }
+    .a5_footer{
+        margin-top: 150px;
+        /* margin-bottom: 74px; */
+    }
+    .a5_ft{
+
+        margin-bottom: 20px;
+        font-size: 11px;
+     
+    }
 }

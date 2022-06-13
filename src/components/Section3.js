@@ -1,10 +1,17 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import './css/Section3.css'
 import agence from '../images/agence_resp.png'
 import vector3 from '../images/vector3.png'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 function Section3() {
+    useEffect(() => {
+        Aos.init({
+            duration: 2000
+        })
+    })
   return (
-    <section className='nag'>
+    <section className='nag' id="nag">
         <div className='nag_section'>
             <div className='nag_section_text'>
                 <div className='nag_section_text_title'>
@@ -20,7 +27,7 @@ function Section3() {
                 </div>
             </div>
             <div className='nag_section_img'>
-                <img src={agence} alt='nag_section_img' />
+                <img src={agence} data-aos='fade-left'alt='nag_section_img' />
             </div>
         </div>
         <div className='nag_section_separator'>

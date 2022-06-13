@@ -31,19 +31,19 @@ function Nav() {
             </div>
             <div className='nav_items'>
                 <p  className='nav_item' onClick={handleShowLinks} >
-                    <a className="nav_item_link" href="#" onClick={handleActive}>VR/RA</a>
+                    <a className="nav_item_link" href="#vr" onClick={handleActive}>VR/RA</a>
                 </p>
                 <p className='nav_item' onClick={handleShowLinks}>
-                    <a href="#" className="nav_item_link" onClick={handleActive}>Notre approche</a>
+                    <a href="#napp" className="nav_item_link" onClick={handleActive}>Notre approche</a>
                 </p>
                 <p className='nav_item' onClick={handleShowLinks}>
-                    <a href="#" className="nav_item_link" onClick={handleActive}>Notre agence</a>
+                    <a href="#nag" className="nav_item_link" onClick={handleActive}>Notre agence</a>
                 </p>
                 <p className='nav_item' onClick={handleShowLinks}>
-                    <a href="#" className="nav_item_link" onClick={handleActive}>Nos solutions</a>
+                    <a href="#noss" className="nav_item_link" onClick={handleActive}>Nos solutions</a>
                 </p>
                 <p className='nav_item' onClick={handleShowLinks}>
-                    <a href="#" className="nav_item_link" onClick={handleActive}>Contact</a>
+                    <a href="#contact" className="nav_item_link" onClick={handleActive}>Contact</a>
                 </p>
             </div>
             {menu_icon}

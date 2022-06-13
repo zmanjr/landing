@@ -1,20 +1,22 @@
 import React ,{useEffect} from 'react'
 import './css/Section1.css'
-import vr from '../images/ra.png'
+
 import vr_resp from '../images/ra_img_resp.png'
 import vector1 from '../images/vector1.png'
 import Aos from "aos"
 import "aos/dist/aos.css";
 
 function Section1() {
-
-  Aos.init({
-      duration: 2000
-  })
+useEffect(() => {
+    Aos.init({
+        duration: 2000
+    })
+})
+  
   
   
   return (
-    <section className='section1'>
+    <section className='section1' id="vr">
         <div className='vr_section_gradient'>
             
         </div>
@@ -34,7 +36,7 @@ function Section1() {
                 </div>
             </div>
             <div className='vr_section_img'>
-                <img src={vr_resp} className='vr_img' alt='vr_img'/>
+                <img src={vr_resp} data-aos='fade-left' className='vr_img' alt='vr_img'/>
             </div>
         </div>
         <div className='vr_section_separator'>
