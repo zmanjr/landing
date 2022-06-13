@@ -80,6 +80,12 @@
     max-width: 100%;
 }
 
+/* .napp_section_capsul_container{
+    position: relative;
+}
+.capsul{
+    position: absolute;
+} */
 
 @media screen and (max-width : 771px)  {
     

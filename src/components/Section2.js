@@ -9,6 +9,29 @@ import 'aos/dist/aos.css'
 
 function Section2() {
   
+
+  window.addEventListener('scroll',function(){
+    const elem = document.querySelector('.capsul');
+    const {scrollTop,clientWidth,clientHeight} = this.document.documentElement;
+    const topElementToTopViewport = elem.getBoundingClientRect().top;
+    if(scrollTop > ((scrollTop + topElementToTopViewport).toFixed() - clientHeight * 0.5)){
+      let pos = 0;
+      let id= setInterval(frame,5);
+  
+      function frame(){
+        if(pos === clientWidth + 30){
+            clearInterval(id);
+        }else{
+          
+          pos = pos + 1;
+          elem.style.marginLeft = pos + 'px';
+          
+        }
+      }
+    }
+  });
+   
+  
   useEffect(() => {
     Aos.init({
         duration: 2000
@@ -44,14 +67,14 @@ function Section2() {
               </p>
           </div>
           <div className='napp_section_box'>
-              <p className='napp_section_box_number' data-aos='fade-in'>3</p>
+              <p className='napp_section_box_number' data-aos='fade-in' >3</p>
               <p className='napp_section_box_text'>
                 Un accès pour tous aux produits haut-de-gamme et luxueux, grâce à la puissance de la réalité augmentée.
               </p>
           </div>
         </div>
-        <div>
-          <img src={capsul} alt="capsul" />
+        <div className='napp_section_capsul_container'>
+          <img className='capsul' data-aos-once="true" src={capsul} alt="capsul" />
           <img src={vector2} className='napp_section_separator' alt="vector2" />
         </div>
     </section>

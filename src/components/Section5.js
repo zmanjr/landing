@@ -38,9 +38,7 @@ function Section5() {
                 <img  className='contact_session_img_img'data-aos='fade-right'src={casque} alt="casque" />
         </div>
     </section>
-    <footer>
-        <p>Copyright</p>
-    </footer>
+    
     </>
   )
 }
