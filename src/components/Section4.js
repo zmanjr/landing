@@ -38,10 +38,13 @@ function Section4() {
               </div>
               <img src={fg} className="fg" alt="fg" />
           </div>
+          <div className='noss_section_gradient_1'></div>
+          <div className='noss_section_gradient_2'></div>
           <div className='a5_footer'>
           <p className='a5_ft'>*la durée et les options des offres sont entièrement modulables.</p>
           <img  className="noss_img"src={vector4} alt="vector4"/>
           </div>
+           
     </section>
   )
 }
