@@ -1,6 +1,7 @@
 .napp_section{
     margin-top: 94px;
     margin-bottom: 94px;
+    position: relative;
     
 }
 .napp_section_titles_text{
@@ -34,7 +35,7 @@
     font-size: 18px;
 }
 
-.napp_section_gradient{
+.napp_section_gradient_1{
     height: 200px;
     width: 200px;
     margin-top: -200px;
@@ -46,6 +47,23 @@
     border: none;
     overflow: hidden;
    
+}
+.napp_section_gradient_2{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    right: -50px;
+    margin-top: -200px;
+    background-image: url(../../images/gradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    overflow: hidden;
+    z-index: -1;
+   
+}
+.napp_section_gradient_1_resp , .napp_section_gradient_2_resp{
+    display: none;
 }
 .napp_section_boxes{
     display: flex;
@@ -106,9 +124,6 @@
         width: 95%;
         text-align: start;
     }
-    .napp_section_gradient{
-    display: none;
-    } 
     
     .napp_section_boxes{
         flex-direction: column;
@@ -122,6 +137,40 @@
     }
     .napp_section_box_text{
         font-size: 16px;
+    }
+    .napp_section_gradient_1{
+        display: none;
+    }
+    .napp_section_gradient_1_resp{
+        display: block;
+        height: 200px;
+        width: 200px;
+        right: -70px;
+        position: absolute;
+        top: -120px;
+        background-image: url(../../images/gradient.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        z-index: -1;
+        overflow: hidden;
+    }
+    .napp_section_gradient_2_resp{
+        display: block;
+        height: 200px;
+        width: 200px;
+        left: 0;
+        position: absolute;
+        top: 250px;
+        background-image: url(../../images/gradient.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        z-index: -1;
+        overflow: hidden;
+    }
+    .napp_section_gradient_2{
+        margin-top: -450px;
     }
     
 }

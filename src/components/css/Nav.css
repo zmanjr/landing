@@ -55,9 +55,10 @@
         padding-top: 70px;
     }
     .show_nav .nav_items{
-        width: 120vw;
+        width: 150vw;
         visibility: visible;
         right: 0;
+        
         
     }
     .nav_item_link{

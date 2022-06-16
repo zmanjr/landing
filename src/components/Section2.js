@@ -10,7 +10,7 @@ import 'aos/dist/aos.css'
 function Section2() {
   
 
-  window.addEventListener('scroll',function(){
+/*   window.addEventListener('scroll',function(){
     const elem = document.querySelector('.capsul');
     const {scrollTop,clientWidth,clientHeight} = this.document.documentElement;
     const topElementToTopViewport = elem.getBoundingClientRect().top;
@@ -29,7 +29,7 @@ function Section2() {
         }
       }
     }
-  });
+  }); */
    
   
   useEffect(() => {
@@ -39,7 +39,9 @@ function Section2() {
 })
   return (
     <section className='napp_section' id="napp">
-        <div className="napp_section_gradient">
+        <div className="napp_section_gradient_1">
+        </div>
+        <div className="napp_section_gradient_1_resp">
         </div>
         <div className='napp_section_titles_text'>
             <div className='napp_section_titles'>
@@ -51,7 +53,7 @@ function Section2() {
             </div>
         </div>
 
-
+        <div className='napp_section_gradient_2_resp'></div>
         <div className='napp_section_boxes'>
           <div className='napp_section_box'>
               <p className='napp_section_box_number' data-aos='fade-in'>1</p>
@@ -73,6 +75,7 @@ function Section2() {
               </p>
           </div>
         </div>
+        <div className='napp_section_gradient_2'></div>
         <div className='napp_section_capsul_container'>
           <img className='capsul' data-aos-once="true" src={capsul} alt="capsul" />
           <img src={vector2} className='napp_section_separator' alt="vector2" />
