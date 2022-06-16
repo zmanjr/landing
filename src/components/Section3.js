@@ -26,6 +26,7 @@ function Section3() {
                     </p>
                 </div>
             </div>
+            <div className='nag_section_gradient'></div>
             <div className='nag_section_img'>
                 <img src={agence} data-aos='fade-left'alt='nag_section_img' />
             </div>
