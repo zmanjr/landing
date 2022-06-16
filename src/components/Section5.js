@@ -28,7 +28,7 @@ function Section5() {
             </div>
             <div className='contact_session_card'>
                 <p className='contact_session_card_content'>
-                    Pas de projets précis en vue, mais l’envie d’en savoir plus sur Capsul Events, rendez-vous sur <a href="#" className='contact_session_card_content_link'>notre site!</a> Vous pourrez même y faire une simulation sur la rentabilité d’une opération menée avec la Capsul.
+                    Pas de projets précis en vue, mais l’envie d’en savoir plus sur Capsul Events, rendez-vous sur <a href="https://capsul-events.fr" className='contact_session_card_content_link'>notre site!</a> Vous pourrez même y faire une simulation sur la rentabilité d’une opération menée avec la Capsul.
                 </p>
                 <button className='contact_session_card_button'>Calculez votre ROI en live</button>
             </div>
@@ -37,6 +37,7 @@ function Section5() {
         <div className='contact_session_img'>
                 <img  className='contact_session_img_img'data-aos='fade-right'src={casque} alt="casque" />
         </div>
+        <div className='contact_session_gradient'></div>
     </section>
     
     </>

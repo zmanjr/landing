@@ -46,12 +46,7 @@
     margin-left: -6%;
     margin-top: -540px;
 }
-footer{
-    font-size: 12px;
-    text-align: center;
-    margin-top: 200px;
-    padding: 10px;
-}
+
 @media screen and (max-width: 991px) {
     .contact_session_card{
         width: 80%;
@@ -74,10 +69,7 @@ footer{
         width: 250px;
         margin-left: -2%;
     }
-    footer{
-        font-size: 10px;
-        margin-top: 40px;
-    }
+    
 }
 
  
