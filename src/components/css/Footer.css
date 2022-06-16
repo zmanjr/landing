@@ -1,11 +1,38 @@
 
 footer{
+    position: relative;
     font-size: 12px;
     text-align: center;
     margin-top: 200px;
     padding: 10px;
 }
-   
+.footer_gradient_1{
+    position: absolute;
+    background-image: url(../../images/gradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    z-index: -1;
+    overflow: hidden;
+    height: 400px;
+    width: 400px;
+    right: 0;
+    bottom: 0;
+}
+
+.footer_gradient_2{
+    position: absolute;
+    background-image: url(../../images/gradient.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    z-index: -1;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    left: 10%;
+    bottom: 0px;
+}
 
 @media screen and (max-width: 771px) {
     footer{
