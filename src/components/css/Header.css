@@ -10,6 +10,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 77px;
+    background-color:  linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.474) 37.09%, rgba(0, 0, 0, 0.474) 66.04%, rgba(0, 0, 0, 0) 100%);
     
 }
 .banner_title{
