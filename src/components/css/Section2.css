@@ -142,7 +142,7 @@
     .napp_section_gradient_1_resp{
         display: block;
         height: 200px;
-        width: 200px;
+        width: 110px;
         right: 0px;
         position: absolute;
         top: -120px;
@@ -155,7 +155,7 @@
     }
     .napp_section_gradient_2_resp{
         display: block;
-        height: 200px;
+        height: 220px;
         width: 200px;
         left: 0;
         position: absolute;
@@ -168,7 +168,9 @@
         overflow: hidden;
     }
     .napp_section_gradient_2{
-        margin-top: -450px;
+        margin-top: -480px;
+        width: 200px;
+        height: 250px;
     }
     
 }
