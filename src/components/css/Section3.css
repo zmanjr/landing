@@ -1,5 +1,6 @@
 .nag{
     position: relative;
+    overflow: hidden;
 }
 
 .nag_section{

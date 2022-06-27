@@ -39,4 +39,7 @@ footer{
         font-size: 10px;
         margin-top: 40px;
     }
+    .footer_gradient_1,.footer_gradient_2{
+        display: none;
+    }
 }

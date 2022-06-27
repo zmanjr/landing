@@ -19,7 +19,7 @@ useEffect(() => {
     <section className='section1' id="vr">
         <div className='vr_section_gradient'>
             
-        </div>
+        </div>    
         <div className="vr_section">
             <div className = 'vr_section_text'>
                 <p className='vr_section_text_titles'>
