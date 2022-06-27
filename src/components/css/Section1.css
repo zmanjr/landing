@@ -17,9 +17,18 @@
     
 
 }
+
 .vr_section{
     display: flex;
     justify-content: space-evenly;
+    
+}
+.img_grd{
+    position: relative;
+}
+.vr_section_gradient_2{
+    display: none;
+    
 }
 
 
@@ -79,5 +88,25 @@
     }
     .vr_section_text_content{
         font-size: 16px;
+    }
+    .vr_section_gradient{
+       
+        width: 150px;
+        height: 200px;
+       
+    }
+
+    .vr_section_gradient_2{
+        display: block;
+        height: 140px;
+        width: 200px;
+        position: absolute;
+        bottom: -50px;
+        left: -100px;
+        background-image: url(../../images/gradient.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border: none;
+        z-index: -1;
     }
 }

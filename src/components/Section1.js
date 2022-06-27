@@ -18,8 +18,8 @@ useEffect(() => {
   return (
     <section className='section1' id="vr">
         <div className='vr_section_gradient'>
-            
-        </div>    
+                
+        </div>
         <div className="vr_section">
             <div className = 'vr_section_text'>
                 <p className='vr_section_text_titles'>
@@ -35,8 +35,12 @@ useEffect(() => {
                     </p>
                 </div>
             </div>
-            <div className='vr_section_img'>
-                <img src={vr_resp} data-aos='fade-left' className='vr_img' alt='vr_img'/>
+            <div className='img_grd'>
+                
+                <div className='vr_section_img'>
+                    <img src={vr_resp} data-aos='fade-left' className='vr_img' alt='vr_img'/>
+                </div>
+                <div className='vr_section_gradient_2'></div>
             </div>
         </div>
         <div className='vr_section_separator'>
