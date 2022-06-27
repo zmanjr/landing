@@ -43,3 +43,13 @@ footer{
         display: none;
     }
 }
+
+@media screen and (max-width: 991px) {
+    .footer_gradient_1,.footer_gradient_2{
+        display: none;
+    }
+    footer{
+        font-size: 10px;
+        margin-top: 40px;
+    }
+}
