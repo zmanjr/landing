@@ -36,7 +36,7 @@ function Section2() {
     Aos.init({
         duration: 2000
     })
-})
+  })
   return (
     <section className='napp_section' id="napp">
         <div className="napp_section_gradient_1">

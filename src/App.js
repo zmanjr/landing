@@ -1,3 +1,4 @@
+import {useEffect} from 'react'
 import './App.css';
 import Footer from './components/Footer';
 import Header from './components/Header';
@@ -9,6 +10,34 @@ import Section4 from './components/Section4';
 import Section5 from './components/Section5';
 
 function App() {
+
+  useEffect(() => {
+ let sections = document.querySelectorAll('section');
+ let links = document.querySelectorAll('.nav_item_link');
+ window.addEventListener('scroll',() => {
+    let currentSectionId = '';
+    sections.forEach(section => {
+        const fromTopToTopSection = section.offsetTop;
+        const yScroll = window.scrollY;
+        const clientHeight = document.documentElement.clientHeight;
+        
+        if(yScroll >= fromTopToTopSection - clientHeight/3){
+            currentSectionId = section.getAttribute('id');
+            
+        }
+
+        
+    });
+
+    links.forEach(a => {
+        a.classList.remove('active');
+        if(a.classList.contains(currentSectionId)){
+            a.classList.add('active');
+        }
+    })
+    
+ });
+  },[])
   return (
     <>
       <Nav /> 

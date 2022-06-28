@@ -14,6 +14,8 @@ function Section5() {
             duration: 2000
         });
     })
+
+    
   return (
     <>
     <section className='contact_session' id="contact">
