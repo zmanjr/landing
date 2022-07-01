@@ -96,12 +96,10 @@
     max-width: 100%;
 }
 
-/* .napp_section_capsul_container{
-    position: relative;
+ .napp_section_capsul_container{
+    overflow: hidden;
 }
-.capsul{
-    position: absolute;
-} */
+
 
 @media screen and (max-width : 771px)  {
     
